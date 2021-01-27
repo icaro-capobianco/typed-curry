@@ -1,5 +1,5 @@
 {
-  "name": "@icarocc/typed-curry",
+  "name": "typed-curry",
   "version": "1.0.0",
   "description": "Brought to you from stack overflow to npm",
   "main": "index.ts",
