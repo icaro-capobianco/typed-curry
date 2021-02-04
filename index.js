@@ -6,7 +6,7 @@ var __spreadArrays = (this && this.__spreadArrays) || function () {
             r[k] = a[j];
     return r;
 };
-Object.defineProperty(exports, "__esModule", { value: true });
+exports.__esModule = true;
 function curry(fn) {
     return function () {
         var _a;
@@ -17,4 +17,4 @@ function curry(fn) {
         return args.length >= fn.length ? fn.apply(void 0, args) : curry((_a = fn).bind.apply(_a, __spreadArrays([undefined], args)));
     };
 }
-exports.default = curry;
+exports["default"] = curry;

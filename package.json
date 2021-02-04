@@ -1,6 +1,6 @@
 {
   "name": "typed-curry",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Brought to you from stack overflow to npm",
   "main": "index.js",
   "author": "Ícaro C. Capobianco and mjakic#4536516, jcalz#2887218 on stack overflow",
@@ -10,7 +10,8 @@
     "url" : "https://github.com/icaro-capobianco/typed-curry"
   },
   "scripts": {
-    "tsc" : "tsc index.ts --target es5 --module commonjs --declaration"
+    "tsc" : "tsc index.ts"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "keywords": ["typescript", "functional", "curry", "strict", "typed", "stackoverflow"]
 }
